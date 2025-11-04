@@ -12,3 +12,9 @@ For the initial steps of this flight computer, I looked at around 5 example STM3
 
 ![Screenshot 2025-10-29 at 00-50-29 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQ0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--68820be659423fb2bfe2f6bbd36f8bbe6952d751/Screenshot%202025-10-29%20at%2000-50-29%20EasyEDA(Standard)%20-%20A%20Simple%20and%20Powerful%20Electronic%20Circuit%20Design%20Tool.png)  
 
+## 11/4/2025 - Added power, sensors, and other components  
+
+Decided what sensors to use: BMP388 altimeter, bmi088 imu, and lis3m magnetometer. Selected these components because they are commonly used in other flight computers, so documentation will be really helpful. Also added an SD card for data logging. For power, I'm using a pmos to make sure power from USB never conflicts with power from battery, and I'm also using diodes for reverse polarity protection. Next step is just to connect all the pins to the STM, and then start actually routing the PCB.
+![Screenshot 2025-11-04 at 01-10-12 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODI4MiwicHVyIjoiYmxvYl9pZCJ9fQ==--f3bdbc254f3ca52251e3146568adb1dfda69154f/Screenshot%202025-11-04%20at%2001-10-12%20EasyEDA(Standard)%20-%20A%20Simple%20and%20Powerful%20Electronic%20Circuit%20Design%20Tool.png)
+  
+
